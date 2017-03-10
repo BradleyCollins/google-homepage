@@ -1,6 +1,28 @@
+header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: right;
+}
+
+header li {
+	display: inline;
+	padding: 14px 10px;
+}
+
+ header a:link {
+	text-decoration: none;
+}
+
+
 footer {
 	position: absolute;
 	bottom: 0;
+}
+
+footer a:link {
+	text-decoration: none;
 }
 
 #foot_left {
@@ -14,3 +36,4 @@ footer {
 	-moz-appearance;
 	-webkit-appearance: none;
 }
+
