@@ -5,8 +5,12 @@ footer {
 
 #foot_left {
 	float: left;
+	-moz-appearance;
+	-webkit-appearance: none;
 }
 
 #foot_right {
 	float: right;
+	-moz-appearance;
+	-webkit-appearance: none;
 }
