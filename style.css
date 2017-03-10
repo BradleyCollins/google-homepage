@@ -1,0 +1,12 @@
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+#foot_left {
+	float: left;
+}
+
+#foot_right {
+	float: right;
+}
