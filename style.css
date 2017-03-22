@@ -4,6 +4,8 @@ header ul{
 	right: 0px;
 	float: right;
 	margin-top: 0;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 header li {
@@ -19,6 +21,24 @@ header li {
 
 header a:hover {
 	text-decoration: underline;
+}
+
+#signin_button {
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	outline: none;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px 12px 5px 12px;
+
+}
+
+#signin_button a {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
 }
 
 footer {
