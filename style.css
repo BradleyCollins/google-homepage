@@ -4,8 +4,9 @@ header ul{
 	right: 0px;
 	float: right;
 	margin-top: 0;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-right: 16px;
+	line-height: 24px;
+	vertical-align: middle;
 }
 
 header li {
@@ -17,10 +18,29 @@ header li {
 	text-decoration: none;
 	font-family: arial,sans-serif;
 	font-size: small;
+	color: #666;
 }
 
 header a:hover {
 	text-decoration: underline;
+}
+
+header a:visited {
+	color: #666;
+}
+
+.nav_pad {
+	margin-right: -10px;
+}
+
+#options_icon {
+	background-image: url("./images/ic_apps_black_24dp_1x.png");
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	padding-bottom: 6px;
+	padding-top: 0px;
+	margin-right: 14px;
+	margin-left: 6px;
 }
 
 #signin_button {
