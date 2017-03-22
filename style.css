@@ -1,9 +1,9 @@
-header {
+header ul{
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+	position: absolute;
+	right: 0px;
 	float: right;
+	margin-top: 0;
 }
 
 header li {
@@ -13,8 +13,13 @@ header li {
 
  header a:link {
 	text-decoration: none;
+	font-family: arial,sans-serif;
+	font-size: small;
 }
 
+header a:hover {
+	text-decoration: underline;
+}
 
 footer {
 	position: fixed;
