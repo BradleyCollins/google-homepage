@@ -3,7 +3,7 @@ header ul{
 	position: absolute;
 	right: 0px;
 	float: right;
-	margin-top: 0;
+	margin-top: -80px;
 	padding-right: 16px;
 	line-height: 24px;
 	vertical-align: middle;
@@ -30,7 +30,7 @@ header a:visited {
 }
 
 .nav_pad {
-	margin-right: -10px;
+	margin-right: -10px; /* This sets the padding for Gmail and Images links */
 }
 
 #options_icon {
@@ -59,6 +59,47 @@ header a:visited {
 	font-size: 13px;
 	font-weight: bold;
 	text-align: center;
+}
+
+#google_logo {
+	height: 92px;
+	width: 272px;
+}
+
+.content {
+	padding-bottom: 35px;
+	display: block;
+	margin-top: 100px;
+}
+
+.search_button {	
+	background-color: #f8f8f8;
+	outline: none;
+	color: #757575;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px 12px 5px 12px;
+	display: inline;
+}
+
+.search_button a {
+	color: #757575;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.search_button a:link {
+	text-decoration: none;
+	font-family: arial,sans-serif;
+}
+
+.search_button a:hover {
+	color: #000;
+}
+
+.search_button:hover {
+	border: 1px solid #c6c6c6;
 }
 
 footer {
