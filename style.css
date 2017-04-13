@@ -1,3 +1,7 @@
+header {
+	margin-top: 100px;
+}
+
 header ul{
 	list-style-type: none;
 	position: absolute;
@@ -6,7 +10,6 @@ header ul{
 	margin-top: -80px;
 	padding-right: 16px;
 	line-height: 24px;
-	vertical-align: middle;
 }
 
 header li {
@@ -62,19 +65,32 @@ header a:visited {
 }
 
 #google_logo {
-	height: 92px;
-	width: 272px;
+	height: auto;
+	width: auto;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: 92/2;
-	margin-left: 272/2;
 }
 
-.content {
-	padding-bottom: 35px;
+input {
+	width: 500px;
 	display: block;
-	margin-top: 100px;
+	background-color: #fff;
+	height: 40px;
+	vertical-align: top;
+	border-radius: 2px;
+	box-shadow: 2px 2px 0 rgba(0,0,0,0.16);
+}
+
+center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main_content {
+	margin-top: 50%;
+	margin-bottom: 50%;
 }
 
 .search_button {	
