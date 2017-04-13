@@ -64,6 +64,11 @@ header a:visited {
 #google_logo {
 	height: 92px;
 	width: 272px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 92/2;
+	margin-left: 272/2;
 }
 
 .content {
@@ -100,6 +105,7 @@ header a:visited {
 
 .search_button:hover {
 	border: 1px solid #c6c6c6;
+	color: #000;
 }
 
 footer {
