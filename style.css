@@ -31,6 +31,10 @@ header a:visited {
 	color: #666;
 }
 
+#main_content img {
+	margin-top: 150px;
+}
+
 .nav_pad {
 	margin-right: -10px; /* This sets the padding for Gmail and Images links */
 }
